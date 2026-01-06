@@ -9,7 +9,6 @@
 ## Features / Возможности
 
 *   **Multi-segment wings / Многосегментные крылья**: Support for complex wings composed of multiple trapezoidal segments. / Поддержка крыльев из нескольких трапециевидных сегментов.
-*   **Canard Scheme / Схема «Утка»**: Module for equivalent chord and static margin calculation for canard layouts. / Расчет эквивалентной хорды и центровки для схемы «утка».
 *   **Interactive Visualization / Интерактивность**: Real-time plot updates using Matplotlib. / Мгновенное обновление графиков.
 *   **Multi-language Support / Мультиязычность**: Built-in support for English and Russian. / Поддержка русского и английского языков.
 *   **High Precision / Высокая точность**: Uses `decimal` library for engineering calculations. / Использование `decimal` для точности вычислений.
@@ -38,14 +37,12 @@ python MACWING.py
 
 1.  **Main Window / Главное окно**: Add wings and segments. Enter chords, span, and sweep. / Добавляйте крылья и сегменты. Вводите хорды, размах и стреловидность.
 2.  **Language / Язык**: Click the "Language" button to toggle between RU and EN. / Нажмите кнопку "Language" для переключения между RU и EN.
-3.  **Canard / Утка**: Use the "Open Canard Window" for advanced aerodynamic center calculations. / Используйте окно «Утка» для расчета аэродинамического фокуса.
 
 ## Math / Математика
 
 The program implements:
 - MAC finding via diagonal intersection method. / Нахождение САХ методом диагоналей.
 - Recursive segment merging. / Рекурсивное объединение сегментов.
-- Equivalent chord for interference effects. / Расчет эквивалентной хорды.
 
 ## Author / Автор
 
